@@ -1,4 +1,4 @@
-<?php if($site->gtmId()->isNotEmpty() || isset(option('candyblue.kirby3-gtm.id'))): ?>
+<?php if($site->gtmId()->isNotEmpty() || null !== option('candyblue.kirby3-gtm.id')): ?>
 <?php $gtmId = $site->gtmId()->isNotEmpty() ? $site->gtmId()->value() : option('candyblue.kirby3-gtm.id') ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<?= $gtmId ?>"
