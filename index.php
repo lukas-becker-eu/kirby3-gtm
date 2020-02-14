@@ -27,3 +27,12 @@ function gtmNoscript() {
     echo "Hello world!";
 }
 */
+
+function gtmId() {
+  $gtmId = $site->gtmId()->isNotEmpty() ? $site->gtmId()->value() : option('candyblue.kirby3-gtm.id');
+  return $gtmId;
+}
+
+/*if($site->gtmId()->isNotEmpty() || null !== option('candyblue.kirby3-gtm.id')): ?>
+<?php $gtmId = $site->gtmId()->isNotEmpty() ? $site->gtmId()->value() : option('candyblue.kirby3-gtm.id') ?>
+*/
