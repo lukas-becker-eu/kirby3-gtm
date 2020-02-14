@@ -7,16 +7,9 @@ Kirby::plugin('candyblue/kirby3-gtm', [
   ],
   'blueprints' => [
     'fields/gtmId' => __DIR__ . '/blueprints/fields/gtmId.yml'
-  ],
-  'siteMethods' => [
-    'gtmId' => function () {
-      return $this->gtmId()->isNotEmpty()? $this->gtmId() : option('candyblue.kirby3-gtm.id');
-    }
   ]
 ]);
 
-/*
 function gtmId() {
   return kirby()->site()->gtmId()->isNotEmpty() ? kirby()->site()->gtmId()->value() : option('candyblue.kirby3-gtm.id');
 }
-*/
