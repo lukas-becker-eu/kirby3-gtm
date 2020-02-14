@@ -9,7 +9,7 @@ Kirby::plugin('candyblue/kirby3-gtm', [
     'gtm/gtm-noscript' => __DIR__ . '/snippets/gtm/gtm-noscript.php',
   ],
   'blueprints' => [
-    'fields/head' => __DIR__ . '/blueprints/fields/gtmId.yml'
+    'fields/gtmId' => __DIR__ . '/blueprints/fields/gtmId.yml'
   ]
   /*
   'blueprints' => [
