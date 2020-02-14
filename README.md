@@ -4,7 +4,7 @@ Integrate Google Tag Manager into your kirby site
 ## Installation
 ```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm ```
 
-git submodule update --recursive --remote
+``` $ git submodule update --recursive --remote ```
 
 ```
 return [
@@ -12,5 +12,7 @@ return [
 ];
 ```
 
+```
 fields:
   gtmId: fields/gtmId
+```
