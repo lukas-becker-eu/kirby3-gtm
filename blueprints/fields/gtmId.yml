@@ -1,0 +1,7 @@
+label: Google Tag Manager ID
+type: text
+converter: upper
+icon: key
+pattern: ^[a-zA-Z0-9-]*$
+placeholder: GTM-XXXXXXX
+translate: false
