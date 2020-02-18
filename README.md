@@ -8,6 +8,7 @@ Integrate Google Tag Manager into your kirby site
 
 ```
 return [
+  'candyblue.kirby3-gtm' => true,
   'candyblue.kirby3-gtm.id' => 'my-custom-key'
 ];
 ```
@@ -15,4 +16,11 @@ return [
 ```
 fields:
   gtmId: fields/gtmId
+```
+
+```
+<?php snippet('gtm/gtm-script') ?>
+```
+```
+<?php snippet('gtm/gtm-noscript') ?>
 ```
