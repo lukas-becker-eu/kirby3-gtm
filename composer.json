@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-        "candyblue\\kirby3-gtm\\": "lib/"
+      "candyblue\\kirby3-gtm\\": "src/"
     }
   },
   "config": {

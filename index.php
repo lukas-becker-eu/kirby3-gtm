@@ -15,14 +15,3 @@ Kirby::plugin('candyblue/kirby3-gtm', [
     'fields/gtmId' => __DIR__ . '/blueprints/fields/gtmId.yml'
   ]
 ]);
-
-/*
-load([
-    'candyblue\\kirby3-gtm\\gtmId' => 'lib/gtmId.php'
-], __DIR__);
-*/
-/*
-function gtmId() {
-  return kirby()->site()->gtmId()->isNotEmpty() ? kirby()->site()->gtmId()->value() : option('candyblue.kirby3-gtm.id');
-}
-*/
