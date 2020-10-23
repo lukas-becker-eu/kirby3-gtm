@@ -6,7 +6,19 @@
   "authors": [
     {
       "name": "candyblue",
-      "email": "hi@candyblue.agency"
+      "email": "hi@candyblue.agency",
+      "homepage": "https://candyblue.agency",
     }
-  ]
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+        "candyblue\\kirby3-gtm\\": "lib/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
 }
