@@ -9,7 +9,7 @@ Download this repo, extract the files and copy them to ```/site/plugins/gtm```.
 ```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm ```
 
 ### Composer
-```composer require wearecandyblue\gtm```
+```composer require candyblue/kirby3-gtm```
 
 ## Usage
 ### Default behaviour
