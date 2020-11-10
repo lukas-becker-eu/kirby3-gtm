@@ -14,11 +14,6 @@
   "require": {
     "getkirby/composer-installer": "^1.1"
   },
-  "autoload": {
-    "psr-4": {
-      "candyblue\\kirby3-gtm\\": "src/"
-    }
-  },
   "config": {
     "optimize-autoloader": true
   }
