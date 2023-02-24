@@ -5,20 +5,14 @@ Integrate Google Tag Manager tracking code into your kirby 3 site
 ### Download
 Download this repo, extract the files and copy them to ```/site/plugins/gtm```.
 
-### Git submodule
-```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm ```
-
 ### Composer
-```composer require candyblue/kirby3-gtm```
+```composer require lukasbecker/kirby3-gtm```
 
 ## Usage
 ### Default behaviour
 To ensure that no data is collected during development this plugin is **inactive as default**.
 
 You have to explicitely activate it via config option. We recommend to specify the activation in a domain specific configuration file, e.g. ```/site/config/config.yourdomain.com.php```.
-
-
-``` $ git submodule update --recursive --remote ```
 
 ### Configuration
 There are only three config options:
@@ -27,7 +21,7 @@ There are only three config options:
 
 ```
 return [
-  'candyblue.kirby3-gtm.id' => 'GTM-XXXXXXX',
+  'lukasbecker.kirby3-gtm.id' => 'GTM-XXXXXXX',
 ];
 ```
 
