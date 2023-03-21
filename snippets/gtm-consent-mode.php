@@ -1,6 +1,8 @@
 <!-- Google Consent Mode -->
-<?php if(!empty(option('lukasbecker.kirby3-gtm.scriptAttr.name'))): ?>
+<?php if(!empty(option('lukasbecker.kirby3-gtm.scriptAttr.name')) && !empty(option('lukasbecker.kirby3-gtm.scriptAttr.value'))): ?>
 <script <?= Html::attr(option('lukasbecker.kirby3-gtm.scriptAttr.name'), option('lukasbecker.kirby3-gtm.scriptAttr.value')) ?>>
+<?php elseif(!empty(option('lukasbecker.kirby3-gtm.scriptAttr.name'))): ?>
+<script <?= Html::attr(option('lukasbecker.kirby3-gtm.scriptAttr.name')) ?>>
 <?php else: ?>
 <script>
 <?php endif ?>
