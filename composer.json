@@ -1,7 +1,7 @@
 {
   "name": "lukasbecker/kirby3-gtm",
   "description": "Integrate Google Tag Manager into your kirby site",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "kirby-plugin",
   "license": "MIT",
   "authors": [
